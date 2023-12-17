@@ -63,6 +63,14 @@ This analysis aims to create a deep learning model predicting the success of fun
 5. **Data adjustment:**
    - Detected and handled outliers in the data by dropping the "ASK_AMT" column on the 3 rd optimisation.
 
+
+### Model summary 
+
+1. **Before**
+![Alt Text](https://github.com/mhosseinf/Challenge21-deep-learning/commit/ecb8fc3120d036ad9316b03efabdfa86720b8354)
+
+
+
 #### Results
 
 
