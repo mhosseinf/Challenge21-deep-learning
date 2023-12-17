@@ -70,6 +70,7 @@ This analysis aims to create a deep learning model predicting the success of fun
 
 ![model summary before opt](https://github.com/mhosseinf/Challenge21-deep-learning/assets/139053922/b9d380a4-45cd-45a1-b189-925271c9cc9a)
 
+2-1st Optimisation 
 
 
 
@@ -88,8 +89,53 @@ This analysis aims to create a deep learning model predicting the success of fun
 
 
 
+### Summarise the overall results of the deep learning optimisation
+While there were slight improvements in training accuracy after the 1st optimization, the 2nd optimization showed a similar accuracy level but with more complex changes in the model architecture. The 3rd optimization, involving outlier handling, resulted in a decrease in accuracy, indicating a potential negative impact. 
+
+
 ### Recommendation for Further Model Refinement
-While there were slight improvements in training accuracy after the 1st optimization, the 2nd optimization showed a similar accuracy level but with more complex changes in the model architecture. The 3rd optimization, involving outlier handling, resulted in a decrease in accuracy, indicating a potential negative impact. Further analysis and experimentation are crucial. Exploring alternative model architectures, such as Random Forest, may offer insights into achieving the desired accuracy target. 
+
+Exploring alternative model architectures, such as Hyperparameter Tuning, may offer insights into achieving the desired accuracy target.
+
+
+# Hyperparameter Tuning Results and Model Analysis
+
+### Proposed Model Architecture
+The hyperparameter tuning process has resulted in the following neural network architecture:
+
+plaintext
+Copy code
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 7)                 350       
+                                                                 
+ dense_1 (Dense)             (None, 9)                 72        
+                                                                 
+ dense_2 (Dense)             (None, 7)                 70        
+                                                                 
+ dense_3 (Dense)             (None, 1)                 8         
+                                                                 
+ dense_4 (Dense)             (None, 1)                 2         
+                                                                 
+=================================================================
+Total params: 502 (1.96 KB)
+Trainable params: 502 (1.96 KB)
+Non-trainable params: 0 (0.00 Byte)
+
+The proposed model consists of multiple dense layers with varying neuron counts.
+The output layer utilises a sigmoid activation function, suitable for binary classification tasks.
+The model has a total of 502 parameters, making it a relatively lightweight model.
+
+### Model Performance
+After training the model with the optimized hyperparameters, the evaluation results are as follows:
+
+Loss: 0.5525
+Accuracy: 0.7202
+
+### Conclusion
+The proposed model, after hyperparameter tuning, demonstrates improved accuracy compared to the previous versions. However, there is still room for further optimization and experimentation. Consider exploring additional architectural changes, activation functions, or even alternative model types such as Random Forests to achieve the desired accuracy target. 
 
 **Links:**
    - Reference to save and export your results to an HDF5 file [TensorFlow Documentation](https://www.tensorflow.org/tutorials/keras/save_and_load).
