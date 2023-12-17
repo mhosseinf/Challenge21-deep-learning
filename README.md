@@ -61,7 +61,9 @@ This analysis aims to create a deep learning model predicting the success of fun
 
 
 5. **Data adjustment:**
-   - Detected and handled outliers in the data by dropping the "ASK_AMT" column on the 3 rd optimisation.
+   - Detected and handled outliers in the data by dropping the "ASK_AMT" column on the 3rd optimisation.
+
+![handled outliers using boxplot](https://github.com/mhosseinf/Challenge21-deep-learning/assets/139053922/f1a5f06d-deae-4618-bbd1-24774fcf0595)
 
 
 ### Model summary 
@@ -70,8 +72,21 @@ This analysis aims to create a deep learning model predicting the success of fun
 
 ![model summary before opt](https://github.com/mhosseinf/Challenge21-deep-learning/assets/139053922/b9d380a4-45cd-45a1-b189-925271c9cc9a)
 
-2-1st Optimisation 
 
+2-**1st Optimisation**
+
+![1st Optimisation](https://github.com/mhosseinf/Challenge21-deep-learning/assets/139053922/a0008171-5877-41e6-ba2c-7aa07c782707) 
+
+
+
+3-**2nd Optimisation**
+
+![2nd Optimisation](https://github.com/mhosseinf/Challenge21-deep-learning/assets/139053922/a3e741b0-bf09-427f-aa5c-f2e9fe5b80a7)
+
+
+3-**3rd Optimisation**
+
+![3rd Optimisation](https://github.com/mhosseinf/Challenge21-deep-learning/assets/139053922/75e9e000-4a4b-4c13-98d5-b8a10ec6ea0e)
 
 
 #### Results
@@ -123,6 +138,9 @@ _________________________________________________________________
 Total params: 502 (1.96 KB)
 Trainable params: 502 (1.96 KB)
 Non-trainable params: 0 (0.00 Byte)
+
+![otimised using hyperparameter options](https://github.com/mhosseinf/Challenge21-deep-learning/assets/139053922/f77d7ec0-e6c6-4eac-b520-83cad451ee33)
+
 
 The proposed model consists of multiple dense layers with varying neuron counts.
 The output layer utilises a sigmoid activation function, suitable for binary classification tasks.
