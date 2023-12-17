@@ -152,17 +152,30 @@ After training the model with the optimized hyperparameters, the evaluation resu
 Loss: 0.5525
 Accuracy: 0.7202
 
+
+
+
+### Random Forest Model Results and Model Analysis 
+The Random Forest model achieved an accuracy of approximately 70.94%. 
+
+
+#### Decision Tree Model Results and Model Analysis
+The Decision Tree model achieved an accuracy of approximately 70.54%. 
+
+
 ### Conclusion
-The proposed model, after hyperparameter tuning, demonstrates improved accuracy compared to the previous versions. However, there is still room for further optimization and experimentation. Needs to consider exploring alternative model types such as Random Forests to achieve the desired accuracy target.
+In conclusion, while all three models showed reasonable accuracy, further experimentation and refinement are recommended to push accuracy beyond the current levels. The proposed model, after hyperparameter tuning, demonstrates better accuracy compared to the other models.
 
+### Recommendation for Further Model Refinement
+Ensemble Approaches: Explore more advanced ensemble methods like Gradient Boosting or XGBoost, which may further enhance model performance.
 
-# Random Forest Model Results and Model Analysis 
+Feature Engineering: Investigate feature importance and potentially engineer or select features more effectively for model training.
 
+Hyperparameter Tuning: Conduct more extensive hyperparameter tuning for both Random Forest and Decision Tree models to discover optimal settings.
 
+Cross-Validation: Implement cross-validation techniques to ensure the robustness of the models.
 
-
-# Decision Tree model Results and Model Analysis
-
+Alternative Architectures: Continue exploring different deep learning architectures or even hybrid models combining deep learning with ensemble methods.
 
 
 
