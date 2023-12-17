@@ -21,7 +21,8 @@ This analysis aims to create a deep learning model predicting the success of fun
 
 ### Changes Made
 
-1. **Neurons:**
+1. **Neurons:** Increased Number of neurons on the 2nd optimisation
+
 
 |   Changes        | Before | 1st Optimisation | 2nd Optimization |3rd Optimization |
 |------------------|--------|------------------|------------------|-----------------|
@@ -29,9 +30,10 @@ This analysis aims to create a deep learning model predicting the success of fun
 | 2nd Layer Neurons| 5      | 64               | 64               |64               |
 | 3rd Layer Neurons| NA     | NA               | 32               |32               |
 | -----------------|--------|------------------|------------------|-----------------|                 
-Note: Increased Number of neurons on the 2nd optimisation
+
 
 2. **Activation Functions:**Added additional hidden layers after the 1st optimisation.
+
 
 |   Changes        |Before   | 1st Optimisation | 2nd Optimisation |3rd Optimisation |
 |------------------|---------|------------------|------------------|-----------------|
@@ -44,13 +46,14 @@ Note: Increased Number of neurons on the 2nd optimisation
 
 
   
-3. **Epochs:**
+3. **Epochs:**Trained for a higher number of epochs after 1st optimization
+
 |   Changes        | Before | 1st Optimisation | 2nd Optimisation |3rd Optimisation |
 |------------------|--------|------------------|------------------|-----------------|
 | No of epochs     | 100    | 120              | 120              |120              |
 | -----------------|--------|------------------|------------------|-----------------|
   
-Note: Trained for a higher number of epochs after 1st optimization
+ 
 
 
 4. **ModelCheckpoint Callback:**
