@@ -31,7 +31,7 @@ This analysis aims to create a deep learning model predicting the success of fun
 | -----------------|--------|------------------|------------------|-----------------|                 
 Note: Increased Number of neurons on the 2nd optimisation
 
-2. **Activation Functions:**
+2. **Activation Functions:**Added additional hidden layers after the 1st optimisation.
 
 |   Changes        |Before   | 1st Optimisation | 2nd Optimisation |3rd Optimisation |
 |------------------|---------|------------------|------------------|-----------------|
@@ -41,7 +41,8 @@ Note: Increased Number of neurons on the 2nd optimisation
 |Output Act Func   | Sigmoid | Sigmoid          | Sigmoid          |Sigmoid          |
 | -----------------|---------|------------------|------------------|-----------------|
  
-Note: Added additional hidden layers after the 1st optimisation.
+
+
   
 3. **Epochs:**
 |   Changes        | Before | 1st Optimisation | 2nd Optimisation |3rd Optimisation |
