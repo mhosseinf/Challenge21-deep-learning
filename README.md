@@ -67,7 +67,9 @@ This analysis aims to create a deep learning model predicting the success of fun
 ### Model summary 
 
 1. **Before**
-![GitHub Logo](https://github.com/mhosseinf/Challenge21-deep-learning/commit/ecb8fc3120d036ad9316b03efabdfa86720b8354)
+
+![model summary before opt](https://github.com/mhosseinf/Challenge21-deep-learning/assets/139053922/b9d380a4-45cd-45a1-b189-925271c9cc9a)
+
 
 
 
