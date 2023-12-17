@@ -29,7 +29,7 @@ This analysis aims to create a deep learning model predicting the success of fun
 | 1st Layer Neurons| 8      | 64               | 64               |64               |
 | 2nd Layer Neurons| 5      | 64               | 64               |64               |
 | 3rd Layer Neurons| NA     | NA               | 32               |32               |
-| -----------------|--------|------------------|------------------|-----------------|                 
+                
 
 
 2. **Activation Functions:**Added additional hidden layers after the 1st optimisation.
@@ -41,7 +41,7 @@ This analysis aims to create a deep learning model predicting the success of fun
 | 2nd Act Func     | ReLU    | Tanh             | Tanh             |Tanh             |
 | 3rd Act Func     | NA      | NA               | Sigmoid          |Sigmoid          |
 |Output Act Func   | Sigmoid | Sigmoid          | Sigmoid          |Sigmoid          |
-| -----------------|---------|------------------|------------------|-----------------|
+
  
 
 
@@ -51,7 +51,7 @@ This analysis aims to create a deep learning model predicting the success of fun
 |   Changes        | Before | 1st Optimisation | 2nd Optimisation |3rd Optimisation |
 |------------------|--------|------------------|------------------|-----------------|
 | No of epochs     | 100    | 120              | 120              |120              |
-| -----------------|--------|------------------|------------------|-----------------|
+|
   
  
 
@@ -72,7 +72,7 @@ This analysis aims to create a deep learning model predicting the success of fun
 | Training Accuracy| 72.54% | 72.77%           | 72.47%           |69.99%           |
 | Eval. Loss       | 0.5528 | 0.5546           | 0.5548           |0.5883           |
 | Eval. Accuracy   | 72.54% | 72.77%           | 72.47%           |69.99%           |
-| -----------------|--------|------------------|------------------|-----------------|
+
 
 
 
