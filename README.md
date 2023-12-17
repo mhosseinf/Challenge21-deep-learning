@@ -153,7 +153,18 @@ Loss: 0.5525
 Accuracy: 0.7202
 
 ### Conclusion
-The proposed model, after hyperparameter tuning, demonstrates improved accuracy compared to the previous versions. However, there is still room for further optimization and experimentation. Needs to consider exploring alternative model types such as Random Forests to achieve the desired accuracy target. 
+The proposed model, after hyperparameter tuning, demonstrates improved accuracy compared to the previous versions. However, there is still room for further optimization and experimentation. Needs to consider exploring alternative model types such as Random Forests to achieve the desired accuracy target.
+
+
+# Random Forest Model Results and Model Analysis 
+
+
+
+
+# Decision Tree model Results and Model Analysis
+
+
+
 
 **Links:**
    - Reference to save and export your results to an HDF5 file [TensorFlow Documentation](https://www.tensorflow.org/tutorials/keras/save_and_load).
