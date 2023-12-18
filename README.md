@@ -156,7 +156,7 @@ Accuracy: 0.7202
 
 
 ### Random Forest Model Results and Model Analysis 
-The Random Forest model achieved an accuracy of approximately 70.94%. 
+The Random Forest model achieved an accuracy of approximately 70.94%.
 
 
 #### Decision Tree Model Results and Model Analysis
